@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="DR Consulting — Clean energy recruiting, career coaching, and professional networking. 15 years placing talent at SolarCity, Tesla, Rivian, and beyond."><title>DR Consulting — Clean Energy Recruiting & Career Coaching</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gloock&family=Source+Sans+3:opsz,wght@7..14,300..700&display=swap" rel="stylesheet"><link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"><link rel="stylesheet" href="/_astro/index.CT6hsGxd.css"></head> <body> <!-- ═══ NAV ═══ --> <header class="site-nav" id="site-nav"> <div class="nav-inner"> <a href="/" class="nav-logo">DR Consulting</a> <button type="button" class="btn nav-cta js-cal">Book a call</button> </div> </header> <main> <!-- ═══ HERO ═══ --> <section class="hero" id="hero"> <div class="hero-inner wrap"> <div class="hero-preface" aria-hidden="true"> <span class="hero-dash"></span> <span class="hero-label">Recruiting · Career Coaching · Clean Energy</span> </div> <h1 class="hero-headline">
+Connecting talent<br class="br-desktop"> to the clean<br class="br-mobile"> energy future.
+</h1> <p class="hero-sub">
+15 years placing engineers, executives, and operators at SolarCity,
+          Tesla, Rivian, and beyond. Now helping the next wave find their
+          place in it.
+</p> <button type="button" class="btn btn-accent btn-lg js-cal">Book a call</button> </div> </section> <!-- ═══ ABOUT ═══ --> <section class="about" id="about"> <div class="about-inner wrap"> <div class="about-copy"> <h2 class="section-h">About David</h2> <p>
+I've spent 15 years inside the clean energy industry — not just
+            recruiting for it. From the early days of residential solar at
+            SolarCity to electric vehicles at Tesla and Rivian, to demand
+            flexibility at Voltus and advisory work at Talisman Partners, I've
+            been part of the teams building the infrastructure of the energy
+            transition.
+</p> <p>
+That experience changes how I recruit. I know what a grid software
+            engineer actually does on day one. I know what an operations leader
+            at a storage company needs beyond the job description. I can have a
+            real conversation with a candidate about why a role matters — and a
+            real one with a hiring manager about what they actually need versus
+            what they think they need.
+</p> <p>
+DR Consulting is my solo practice. I work with a small number of
+            clients at a time, which means every search gets my full attention.
+            If you're looking for a career conversation, a recruiting partnership,
+            or a connection in the clean energy space — let's talk.
+</p> </div> <div class="about-mark" aria-hidden="true"> <span class="about-initials">DR</span> </div> </div> </section> <!-- ═══ SERVICES ═══ --> <section class="services" id="services"> <div class="wrap"> <h2 class="section-h">What I do</h2> <div class="services-list"> <article class="service"> <h3 class="service-name">Clean Energy Recruiting</h3> <p class="service-body">
+Placing engineers, project developers, operators, and executives
+              across solar, storage, EV, grid software, and sustainable
+              infrastructure. Deep sector relationships and a 15-year track
+              record across the full career lifecycle — from first cleantech
+              role to C-suite placement.
+</p> </article> <article class="service"> <h3 class="service-name">Career Coaching &amp; Transition</h3> <p class="service-body">
+For professionals navigating what's next — whether you're
+              entering clean energy for the first time, considering a move
+              within the sector, or planning a thoughtful exit into advisory
+              work or retirement. 15 years of market knowledge and genuine
+              industry relationships in every conversation.
+</p> </article> <article class="service"> <h3 class="service-name">Recruiter Partnerships</h3> <p class="service-body">
+Partnering with internal TA teams and external search firms on
+              specialized roles in adjacent verticals: robotics, AI/ML, data
+              science, hard tech, deep tech, automation, and infrastructure.
+              I bring sector depth; you bring the network. Together, we close
+              faster and better.
+</p> </article> </div> </div> </section> <!-- ═══ WHO I WORK WITH ═══ --> <section class="clients" id="clients"> <div class="wrap"> <h2 class="section-h">Who I work with</h2> <ul class="clients-list"> <li> <strong>Job seekers in clean energy &amp; climate tech</strong>
+— Mid-career professionals and senior leaders navigating a
+            specialized, relationship-driven industry.
+</li> <li> <strong>Late-career professionals</strong>
+— Executives and senior contributors planning a thoughtful
+            transition to advisory, board work, or retirement.
+</li> <li> <strong>Recruiters, internal and external</strong>
+— Talent professionals in adjacent verticals who need a
+            specialist partner for cross-functional or hard-to-fill searches.
+</li> <li> <strong>University &amp; alumni career offices</strong>
+— Academic advisors connecting students and alumni with clean
+            energy and climate tech opportunities.
+</li> </ul> </div> </section> <!-- ═══ CTA CLOSE ═══ --> <section class="cta-close"> <div class="cta-close-inner wrap"> <h2 class="cta-headline">Ready to connect?</h2> <p class="cta-sub">Every good placement starts with a conversation. Book 30 minutes.</p> <button type="button" class="btn btn-accent btn-lg js-cal">Book a call</button> </div> </section> </main> <!-- ═══ FOOTER ═══ --> <footer class="site-footer"> <div class="footer-inner wrap"> <span class="footer-name">DR Consulting</span> <span class="footer-copy">© 2026 DR Consulting · Los Angeles, CA</span> </div> </footer> <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script> <script>
+    /* ── Enable CSS animations (guards against headless / no-JS) ── */
+    document.documentElement.classList.add('js');
+
+    /* ── Nav scroll state ── */
+    (function () {
+      var nav  = document.getElementById('site-nav');
+      var hero = document.getElementById('hero');
+      if (!nav || !hero) return;
+
+      var io = new IntersectionObserver(function (entries) {
+        nav.classList.toggle('is-scrolled', !entries[0].isIntersecting);
+      }, { threshold: 0.06 });
+      io.observe(hero);
+    }());
+
+    /* ── Calendly popup ── */
+    function openCal() {
+      if (typeof Calendly !== 'undefined') {
+        Calendly.initPopupWidget({ url: 'https://calendly.com/drreichbaum/30min' });
+      } else {
+        window.open('https://calendly.com/drreichbaum/30min', '_blank', 'noopener,noreferrer');
+      }
+    }
+
+    document.querySelectorAll('.js-cal').forEach(function (el) {
+      el.addEventListener('click', openCal);
+    });
+  </script> </body> </html>
